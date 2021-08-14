@@ -65,8 +65,25 @@ php artisan migrate:refresh --seed
 ```
 
 ### add TopController and edit routing of Top(/)
+
 ```
 php artisan make:controller TopController
+```
+
+Edit following files to change Top(/) routing.
+* routes/web.php
+* app/Providers/RouteServiceProvider
+* app/Http/Controllers/TopController.php
+
+Add view file.
+* resource/views/index.blade.php
+* public/css/style.css
+* public/images/top.png
+
+### add ListController and edit routing of List(/list)
+
+```
+php artisan make:controller ListController
 ```
 
 ## Note
