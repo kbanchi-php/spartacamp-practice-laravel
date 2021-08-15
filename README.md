@@ -2,6 +2,10 @@
 
 ## About This App
 This is Laravel sample application.
+This application provides sample shopping app.
+
+![](./demo/top.png)
+![](./demo/index.png)
 
 ## Requirement
 ```
