@@ -20,3 +20,7 @@ Route::get('/list', 'ListController@list');
 Route::get('/new', 'NewController@new');
 
 Route::post('/create', 'NewController@create');
+
+Route::get('/edit/{id}', 'EditController@edit');
+
+Route::post('/update/{id}', 'EditController@update');
