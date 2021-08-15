@@ -123,4 +123,14 @@ Edit following files to change Edit(/edit) routing.
 Add view file.
 * resource/views/edit.blade.php
 
+### add Web API
+
+```
+php artisan make:controller ItemsAPIController
+```
+
+Edit following files to change Web API routing.
+* routes/api.php
+* app/Http/Controllers/ItemsAPIController.php
+
 ## Note
