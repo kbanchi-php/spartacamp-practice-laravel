@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'TopController@index');
+Route::get('/', 'TopController@top');
+
+Route::get('/list', 'ListController@list');
