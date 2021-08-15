@@ -86,4 +86,37 @@ Add view file.
 php artisan make:controller ListController
 ```
 
+Edit following files to change List(/list) routing.
+* routes/web.php
+* app/Http/Controllers/ListController.php
+
+Add view file.
+* resource/views/list.blade.php
+
+### add NewController and edit routing of New(/new)
+
+```
+php artisan make:controller NewController
+```
+
+Edit following files to change New(/new) routing.
+* routes/web.php
+* app/Http/Controllers/NewController.php
+
+Add view file.
+* resource/views/new.blade.php
+
+### add EditController and edit routing of Edit(/edit)
+
+```
+php artisan make:controller EditController
+```
+
+Edit following files to change Edit(/edit) routing.
+* routes/web.php
+* app/Http/Controllers/EditController.php
+
+Add view file.
+* resource/views/edit.blade.php
+
 ## Note

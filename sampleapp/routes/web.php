@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'TopController@top');
 
 Route::get('/list', 'ListController@list');
+
+Route::get('/new', 'NewController@new');
+
+Route::post('/create', 'NewController@create');
