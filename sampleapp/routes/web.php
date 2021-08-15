@@ -17,6 +17,8 @@ Route::get('/', 'TopController@top');
 
 Route::get('/list', 'ListController@list');
 
+Route::post('/delete/{id}', 'ListController@delete');
+
 Route::get('/new', 'NewController@new');
 
 Route::post('/create', 'NewController@create');

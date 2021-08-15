@@ -28,6 +28,7 @@
               </div>
               <div class="item-menu">
                 <form action="/delete/{{ $item->id }}" method="post">
+                  {{ csrf_field() }}
                   <input type="submit" value="削除">
                 </form>
                 <a href="/edit/{{ $item->id }}">編集</a>
